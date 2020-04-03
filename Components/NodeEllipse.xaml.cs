@@ -404,15 +404,5 @@ namespace GraphTheoryInWPF.Components {
                                               mouseWithinParent.Y - this._mouseLocationWithinMe.Y));
             }
         }
-
-        //private void NodeEllipseCanvas_MouseMove(object sender, MouseEventArgs e) {
-        //    //if (e.LeftButton == MouseButtonState.Pressed) {
-        //    //    Point p = e.GetPosition(this._canvas);
-        //    //    this.SetCoordinates(p);
-        //    //    //this.CaptureMouse();
-        //    //} else {
-        //    //    //this.ReleaseMouseCapture();
-        //    //}
-        //}
     }
 }
