@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphTheoryInWPF", "GraphTh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GraphTheory.Core", "..\GraphTheory.Core\GraphTheory.Core.csproj", "{9AC49572-FF16-4FE6-9F9E-B413CE38E078}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{76208877-3E27-4334-B219-B38FA835A78F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C249FEBC-3A7E-4136-A239-D81733C8049C} = {76208877-3E27-4334-B219-B38FA835A78F}
+		{9AC49572-FF16-4FE6-9F9E-B413CE38E078} = {76208877-3E27-4334-B219-B38FA835A78F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A491B256-535D-4C9B-83FE-15A79B1183BE}
