@@ -73,17 +73,6 @@ namespace GraphTheoryInWPF.View {
         }
 
         private void RadioButton_Checked(Object sender, RoutedEventArgs e) {
-            //if (sender is RadioButton rb) {
-            //    if (rb == this.RadioButtonAllRoutes) {
-
-            //        if (this.TextTab != null)
-            //            this.TextTab.IsSelected = true;
-            //    }
-            //    //else {
-            //    //    if (this.CanvasTab != null)
-            //    //        this.CanvasTab.IsSelected = true;
-            //    //}
-            //}
             if (this._rpvm != null)
                 this._rpvm.OnNodeSelectorChanged();
         }
